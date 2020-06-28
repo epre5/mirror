@@ -27,10 +27,10 @@ handle_cookie: True
 
 host:
   self: mirror.yestolife.vercel.app
-  proxy: www.youtube.com
+  proxy: www.google.com
 
 replaced_urls:
-  - old: www.youtube.com
+  - old: www.google.com
     new: mirror.yestolife.vercel.app
 `
 var Config *Yaml
