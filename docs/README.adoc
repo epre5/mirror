@@ -1,12 +1,1 @@
-= Mirror
-By LoeRfy
-
-Golang 写的反向代理的工具，支持文本替换，重定向替换，Cookie 替换等。详见 https://blog.itswincer.com/posts/1352252a/[本博客]。
-已部署至 now.sh。
-
-=======
-⚠️：在 now.sh 部署之后，最近两个月每个月跑了近 100g 的流量，由于使用的是免费账户，被 now.sh 警告多次后已被永久冻结。故请自行部署。
-
-自行部署请切换至 now_sh 分支。
-
 参考 https://blog.itswincer.com/posts/1352252a/[此文]实现反向代理“外网”网站，原始代码见 https://github.com/WincerChan/mirror/tree/now_sh[这里]。使用 https://vercel.com/[vercel]的云托管服务，可以免费托管页面，而且支持github导入project，一键实现在线生成、部署、访问。注意一定要分支now_sh。
