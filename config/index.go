@@ -26,12 +26,12 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: mirror.loerfy.now.sh
+  self: mirror.yestolife.vercel.app
   proxy: www.google.com
 
 replaced_urls:
   - old: www.google.com
-    new: mirror.loerfy.now.sh
+    new: mirror.yestolife.vercel.app
 `
 var Config *Yaml
 var Protocal string
