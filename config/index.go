@@ -26,12 +26,12 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: mirror.yestolife.vercel.app
-  proxy: www.google.com
+  self: host.loc.now.sh
+  proxy: hostloc.com
 
 replaced_urls:
-  - old: www.google.com
-    new: mirror.yestolife.vercel.app
+  - old: hostloc.com
+    new: host.loc.now.sh
 `
 var Config *Yaml
 var Protocal string
