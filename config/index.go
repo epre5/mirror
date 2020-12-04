@@ -26,12 +26,12 @@ enable_ssl: True
 handle_cookie: True
 
 host:
-  self: host.loc.now.sh
+  self: loc.now.sh
   proxy: hostloc.com
 
 replaced_urls:
   - old: hostloc.com
-    new: host.loc.now.sh
+    new: loc.now.sh
 `
 var Config *Yaml
 var Protocal string
